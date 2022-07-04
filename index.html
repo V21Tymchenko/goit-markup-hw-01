@@ -10,23 +10,23 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/normalize.css"/>
-    <link rel="stylesheet" href="styles/styles.css"/>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <!--Заказ услуги-->
     <header class="header">
-      <a href="" class="logo"><span class="span">Web</span>Studio</a>
-      <ul class="items">
-        <li><a href="" class="navigation-items1">Студия</a></li>
-        <li><a href="" class="navigation-items2">Портфолио</a></li>
-        <li><a href="" class="navigation-items3">Портфолио</a></li>
-      </ul>
-      <div>
-        <a class="contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="contact-item2" href="tel:+380961111111">+38 096 111 11 11</a>
-      </div>
+      <nav>
+        <a href="" class="logo"><span class="span">Web</span>Studio</a>
+        <ul class="items">
+          <li><a href="" class="navigation-items1">Студия</a></li>
+          <li><a href="" class="navigation-items2">Портфолио</a></li>
+          <li><a href="" class="navigation-items3">Портфолио</a></li>
+        </ul>
+      </nav>
+      <a class="contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="contact-item2" href="tel:+380961111111">+38 096 111 11 11</a>
     </header>
     <main>
       <!--Section1-->
@@ -34,7 +34,7 @@
         <h1 class="title">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="btn">Заказать услугу</button>
       </section>
-      <!--What we do-->
+      <!--Приемущества-->
       <section class="section2">
         <h2 hidden>Преимущества</h2>
         <ul class="list">
@@ -63,6 +63,9 @@
             </p>
           </li>
         </ul>
+      </section>
+      <!--Чем мы занимаемся-->
+      <section>
         <h2 class="h2-section2">Чем мы занимаемся</h2>
         <ul class="list2">
           <li>
@@ -74,12 +77,13 @@
             />
           </li>
           <li>
-            <img class="second-img"
-             src="./image/img2.jpg" 
-             alt="Смарт адаптация программы под телефон" 
-             width="370" />
+            <img
+              class="second-img"
+              src="./image/img2.jpg"
+              alt="Смарт адаптация программы под телефон"
+              width="370"
+            />
           </li>
-
           <li>
             <img src="./image/img3.jpg" alt="Выбор цветовой" width="370" />
           </li>
@@ -90,7 +94,6 @@
         <h2 class="team">Наша команда</h2>
         <ul class="list3">
           <li class="first-li">
-            <div class="team-div">
             <img
               src="./image/our-team1.jpg"
               alt="Сотрудник компании(мужчина) в очках и коричневой рубашке"
@@ -98,10 +101,8 @@
             />
             <h3 class="team-name">Игорь Демьяненко</h3>
             <p class="team-p">Product Designer</p>
-          </div>
           </li>
           <li>
-            <div class="team-div">
             <img
               src="./image/our-team2.jpg"
               alt="Сотрудник компании(девушка) в очках и черном пиджаке"
@@ -109,10 +110,8 @@
             />
             <h3 class="team-name">Ольга Репина</h3>
             <p class="team-p">Frontend Developer</p>
-          </div>
           </li>
           <li>
-            <div class="team-div">
             <img
               src="./image/our-team3.jpg"
               alt="Сотрудник компании(мужчина) в голоубой рубашке"
@@ -120,10 +119,8 @@
             />
             <h3 class="team-name">Николай Тарасов</h3>
             <p class="team-p">Marketing</p>
-          </div>
           </li>
           <li>
-            <div class="team-div">
             <img
               src="./image/our-team4.jpg"
               alt="Сотрудник компании(мужчина) в очках, с бородой и черной футболке"
@@ -131,31 +128,18 @@
             />
             <h3 class="team-name">Михаил Ермаков</h3>
             <p class="team-p">UI Designer</p>
-          </div>
           </li>
         </ul>
       </section>
     </main>
     <!--Footer-->
     <footer class="footer">
-      <a 
-      class="navigation" 
-      href=""><span class="span">Web</span>Studio</a>
-      <div class="address">
+      <a class="navigation" href=""><span class="span">Web</span>Studio</a>
+      <address>г. Киев, пр-т Леси Украинки, 26</address>
       <address>
-        <ul class="list4">
-          <li>
-            <a class="street" href="">г. Киев, пр-т Леси Украинки, 26</a>
-          </li>
-          <li>
-            <a class="mail" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li>
-            <a class="tel" href="tel:+380991111111">+38 099 111 11 11</a>
-          </li>
-        </ul>
+        <a class="mail" href="mailto:info@example.com">info@example.com</a>
+        <a class="tel" href="tel:+380991111111">+38 099 111 11 11</a>
       </address>
-    </div>
     </footer>
   </body>
 </html>
